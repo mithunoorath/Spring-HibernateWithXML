@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="mithun.learn.samples">
+    <class name="Locations" table="LOCATIONS">
+        <id name="id" column="LOCATION_ID">
+            <generator class="native"/>
+        </id>
+        <property name="streetAddress" column="STREET_ADDRESS" />
+        <property name="postalCode" column="POSTAL_CODE" />
+        <property name="city" column="CITY" />
+        <property name="stateProvince" column="STATE_PROVINCE" />
+        <property name="countryId" column="COUNTRY_ID" />
+    </class> 
+</hibernate-mapping>
