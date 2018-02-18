@@ -12,7 +12,7 @@ public class Locations {
 	
 	private String stateProvince;
 	
-	private int countryId;
+	private String countryId;
 	public int getLocationId() {
 		return locationId;
 	}
@@ -43,10 +43,10 @@ public class Locations {
 	public void setStateProvince(String stateProvince) {
 		this.stateProvince = stateProvince;
 	}
-	public int getCountryId() {
+	public String getCountryId() {
 		return countryId;
 	}
-	public void setCountryId(int countryId) {
+	public void setCountryId(String countryId) {
 		this.countryId = countryId;
 	}
 	
